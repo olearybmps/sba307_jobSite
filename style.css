@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+* {
+    /* border: 1px solid black; */
+}
+
+/* Begin Desktop */
+@media (max-width: 1900px) {
+    .signUpMsg {
+        display: block;
+    }
+
+    .companyName {
+        display: block;
+    }
+
+    .leftMain {
+        background-color: #231F20;
+        color: white;
+        flex: 1 1 50%;
+        /* Adjust the width as needed */
+        padding: 50px;
+        box-sizing: border-box;
+    }
+
+    .rightMain {
+        flex: 1 1 50%;
+        position: relative;
+    }
+
+    .mainImg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(35, 31, 32, 0.8);
+    }
+}
+
+/* End Desktop ---------------------------------------------- */
+/* Begin Tablet ---------------------------------------------- */
+
+@media (max-width: 769px) {
+    .signUpMsg {
+        display: block;
+    }
+
+    .companyName {
+        display: none;
+    }
+
+    .leftMain {
+        background-color: #231F20;
+        color: white;
+        flex: 1 1 50%;
+        /* Adjust the width as needed */
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .rightMain {
+        flex: 1 1 50%;
+        position: relative;
+    }
+
+    .mainImg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(35, 31, 32, 0.8);
+    }
+}
+
+/* End Tablet ---------------------------------------------- */
+/* Begin Mobile ----------------------------------------------*/
+
+@media (max-width: 480px) {
+    .signUpMsg {
+        display: none;
+    }
+
+    .companyName {
+        display: none;
+    }
+
+    .leftMain {
+        background-color: #231F20;
+        color: white;
+        flex: 1 1 100%;
+        /* Adjust the width as needed */
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .rightMain {
+        display: none;
+    }
+}
+
+/* End Mobile ---------------------------------------------- */
+/* General CSS */
+
+.signUpContainer {
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0;
+}
+
+/* NavTab Begin -------------------------------------------------------- */
+.navContainer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.navTabContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.navTab {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.registerContainer {
+    width: 10%;
+    text-align: right;
+}
+
+.registerBtn {
+    border: none;
+    background-color: #231F20;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* NavTab End */
+
+.signUpImg {
+    margin-right: 10px;
+}
+
+.signUpTxt {
+    font-weight: bold;
+}
+
+.btnContainer {
+    margin-left: auto;
+}
+
+.newsLetterImg {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: auto;
+}
+
+.subscribe {
+    border: none;
+    background-color: #8E793E;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logoImg {
+    height: 50px;
+    width: auto;
+}
+
+.companyName {
+    margin-left: 5px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.mainNewsletterBtn {
+    border: none;
+    background-color: #AD974F;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.whoWeAreContainer {
+    padding: 100px;
+    text-align: center;
+}
+
+.companyTitle {
+    color: #8E793E;
+}
+
+.whoExploreMsg {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.browseJobsBtn {
+    border: none;
+    background-color: #231F20;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.postJobsBtn {
+    border: none;
+        background-color: #8E793E;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 10px;
+}
+
+/* color pallette */
+.dark-gold {
+    color: #8E793E
+}
+
+.light-gold {
+    color: #AD974F
+}
+
+.intellectual-grey {
+    color: #231F20
+}
+
+.light-grey {
+    color: #EAEAEA
+}
