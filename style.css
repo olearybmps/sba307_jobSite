@@ -252,8 +252,26 @@ body {
     border-radius: 10px;
 }
 
-.jobsContainer {
-    /* padding: 50px; */
+
+.searchContainer {
+    padding: 50px;
+}
+
+.searchBox {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.searchBtn {
+    border: none;
+    background-color: #231F20;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
 }
 
 /* Table Container */
