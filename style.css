@@ -157,14 +157,7 @@ body {
     text-align: right;
 }
 
-.registerBtn {
-    border: none;
-    background-color: #231F20;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-}
+
 
 /* NavTab End */
 
@@ -186,14 +179,7 @@ body {
     width: auto;
 }
 
-.subscribe {
-    border: none;
-    background-color: #8E793E;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-}
+
 
 .logoImg {
     height: 50px;
@@ -207,17 +193,6 @@ body {
 .mainContainer {
     display: flex;
     flex-wrap: wrap;
-}
-
-
-
-.mainNewsletterBtn {
-    border: none;
-    background-color: #AD974F;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .whoWeAreContainer {
@@ -234,25 +209,6 @@ body {
     font-size: 2em;
 }
 
-.browseJobsBtn {
-    border: none;
-    background-color: #231F20;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.postJobsBtn {
-    border: none;
-    background-color: #8E793E;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-
 .searchContainer {
     padding: 50px;
 }
@@ -264,6 +220,75 @@ body {
     margin-bottom: 10px;
 }
 
+
+
+/* All Buttons */
+
+.subscribeBtn {
+    border: none;
+    background-color: #8E793E;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.subscribeBtn:hover {
+    background-color: #AD974F;
+}
+
+.registerBtn {
+    border: none;
+    background-color: #231F20;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.registerBtn:hover {
+    background-color: #3a3a3a;
+}
+
+.mainNewsletterBtn {
+    border: none;
+    background-color: #AD974F;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mainNewsletterBtn:hover {
+    background-color: #8E793E;
+}
+
+.browseJobsBtn {
+    border: none;
+    background-color: #231F20;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.browseJobsBtn:hover {
+    background-color: #3a3a3a;
+}
+
+.postJobsBtn {
+    border: none;
+    background-color: #8E793E;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.postJobsBtn:hover {
+    background-color: #AD974F;
+}
+
 .searchBtn {
     border: none;
     background-color: #231F20;
@@ -272,6 +297,10 @@ body {
     padding: 10px;
     border-radius: 10px;
     width: 50%;
+}
+
+.searchBtn:hover {
+    background-color: #3a3a3a;
 }
 
 /* Table Container */
