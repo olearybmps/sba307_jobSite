@@ -8,13 +8,170 @@ body {
 }
 
 /* Begin Desktop */
-@media (max-width: 1900px) {
+@media (max-width: 1920px) {
+    .signUpContainer {
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .signUpImg {
+            width: 20%;
+        }
+    
+        .signUpMsg {
+            display: block;
+        }
+    
+        .signUpBtnContainer {
+            width: 33%;
+            text-align: right;
+        }
+    
+        /* End of signContainer-------------------------------------- */
+    
+        .navContainer {
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navTabContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+        }
+    
+        .dropdown {
+            position: relative;
+            display: none;
+        }
+
+        .logoContainer {
+            display: flex;
+            align-items: center;
+            width: 40%;
+        }
+
+        .registerContainer {
+            width: 10%;
+            text-align: right;
+        }
+
+        .companyName {
+            display: block;
+        }
+
+        .companyName h1 {
+            font-size: 32px;
+        }
+
+        /* End of Nav */
+
+        .mainContainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .leftMain {
+            background-color: #231F20;
+            color: white;
+            flex: 1 1 50%;
+            /* Adjust the width as needed */
+            padding: 50px;
+            box-sizing: border-box;
+        }
+    
+        .rightMain {
+            flex: 1 1 50%;
+            position: relative;
+        }
+    
+        .mainImg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(35, 31, 32, 0.8);
+        }
+}
+
+@media (max-width: 1200px) {
+    .signUpContainer {
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .signUpImg {
+        width: 20%;
+    }
+
     .signUpMsg {
         display: block;
     }
 
+    .signUpBtnContainer {
+        width: 33%;
+        text-align: right;
+    }
+
+/* End of signContainer-------------------------------------- */
+
+    .navContainer {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navTabContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: none;
+    }
+
+    .logoContainer {
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+
+    .registerContainer {
+        width: 10%;
+        text-align: right;
+    }
+
     .companyName {
         display: block;
+    }
+
+    .companyName h1 {
+        font-size: 24px;
+    }
+
+    /* End of Nav */
+
+    .mainContainer {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .leftMain {
@@ -51,25 +208,83 @@ body {
 /* Begin Tablet ---------------------------------------------- */
 
 @media (max-width: 769px) {
+    .signUpContainer {
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .signUpImg {
+        width: 20%;
+    }
+
     .signUpMsg {
-        display: block;
+        display: none;
+    }
+
+    .signUpBtnContainer {
+        width: 33%;
+        text-align: right;
+    }
+
+/* End of signContainer-------------------------------------- */
+
+    .navContainer {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+    }
+
+    .navTabContainer {
+        width: 10%;
+        display: flex;
+        justify-content: left;
+    }
+    
+    .navTabContainer a {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .logoContainer {
+        display: flex;
+        align-items: center;
+        width: 10%;
+        margin-right: 5px;
+    }
+    
+    .registerContainer {
+        width: 80%;
+        text-align: right;
     }
 
     .companyName {
         display: none;
     }
 
+    /* End of Nav */
+
+    .mainContainer {
+        display: block;
+        /* flex-wrap: wrap; */
+    }
+
     .leftMain {
         background-color: #231F20;
         color: white;
-        flex: 1 1 50%;
+        flex: 1 1 100%;
         /* Adjust the width as needed */
         padding: 20px;
         box-sizing: border-box;
+        text-align: center;
     }
 
     .rightMain {
-        flex: 1 1 50%;
+        flex: 1 1 100%;
         position: relative;
     }
 
@@ -93,8 +308,57 @@ body {
 /* Begin Mobile ----------------------------------------------*/
 
 @media (max-width: 480px) {
+    .signUpContainer {
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .signUpImg {
+        width: 20%;
+    }
+
     .signUpMsg {
         display: none;
+    }
+
+    .signUpBtnContainer {
+        width: 80%;
+        text-align: right;
+    }
+/* End of signContainer-------------------------------------- */
+
+    .navContainer {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+    }
+
+    .navTabContainer {
+        width: 10%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .navTabContainer a {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .logoContainer {
+        display: flex;
+        align-items: center;
+        width: 15%;
+        margin-right: 5px;
+    }
+
+    .registerContainer {
+        width: 75%;
+        text-align: right;
     }
 
     .companyName {
@@ -108,54 +372,78 @@ body {
         /* Adjust the width as needed */
         padding: 20px;
         box-sizing: border-box;
+        text-align: center;
     }
 
     .rightMain {
-        display: none;
+        flex: 1 1 100%;
+        position: relative;
     }
 }
 
 /* End Mobile ---------------------------------------------- */
 /* General CSS */
 
-.signUpContainer {
-    border-bottom: 1px solid black;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    margin: 0;
-}
-
 /* NavTab Begin -------------------------------------------------------- */
-.navContainer {
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.logoContainer {
-    display: flex;
-    align-items: center;
-    width: 40%;
-}
 
-.navTabContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-}
+
+
 
 .navTab {
     font-weight: bold;
     padding: 10px;
 }
 
-.registerContainer {
-    width: 10%;
-    text-align: right;
+.navLink {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
 }
+
+/* .dropdown {
+    position: relative;
+    display: none;
+} */
+
+.hamburgerMenu {
+    width: 30px;
+    /* Adjust size as needed */
+    height: 20px;
+    /* Adjust size as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #231F20;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+
 
 
 
@@ -190,10 +478,7 @@ body {
     margin-left: 5px;
 }
 
-.mainContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .whoWeAreContainer {
     padding: 100px;
