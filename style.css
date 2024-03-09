@@ -365,6 +365,8 @@ body {
         display: none;
     }
 
+    /* End of Nav */
+
     .leftMain {
         background-color: #231F20;
         color: white;
@@ -387,9 +389,6 @@ body {
 /* NavTab Begin -------------------------------------------------------- */
 
 
-
-
-
 .navTab {
     font-weight: bold;
     padding: 10px;
@@ -401,10 +400,6 @@ body {
     margin: 0 10px;
 }
 
-/* .dropdown {
-    position: relative;
-    display: none;
-} */
 
 .hamburgerMenu {
     width: 30px;
@@ -614,6 +609,46 @@ td {
     padding: 8px;
     text-align: left;
 }
+
+/* animation */
+/* animate newsletter image */
+@keyframes growAndShrink {
+    0% {
+        transform: scale(.75);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animateImg {
+    animation: growAndShrink 2000ms ease-in-out infinite alternate;
+    text-align: center;
+}
+
+/* animate newsletter center message */
+@keyframes dropIn {
+    from {
+        transform:
+            translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform:
+            translateY(0%);
+        opacity: 1;
+    }
+}
+
+.animateMsg {
+    animation: dropIn 5000ms infinite;
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+}
+
+
 
 /* color pallette */
 .dark-gold {
