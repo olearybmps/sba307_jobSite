@@ -586,6 +586,15 @@ body {
     background-color: #3a3a3a;
 }
 
+.blogNextBtn {
+    border: none;
+    background-color: #8E793E;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 /* Table Container */
 
 .tableContainer {
@@ -710,6 +719,11 @@ so created a special class to unbold those labels */
     border: none;
     border-radius: 4px;
 }
+
+/* End of form CSS */
+/* Start Blog CSS */
+/* Moved to blog.html for internal styling example */
+/* End Blog CSS */
 
 
 

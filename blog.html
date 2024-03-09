@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Example of internal styling */
+        
+        .blogTitleContainer h2{
+            padding: 0px;
+            margin-bottom: 0px;
+        }
+
+        .blogTitle {
+            color: #8E793E;
+        }
+
+        .blogTitleContainer {
+            text-align: center;
+        }
+
+        .blogStory {
+            padding: 50px;
+            border-bottom: dotted #231F20;
+        }
+
+        .blogTitleContainer + .blogStory {
+           padding: 0px 50px 50px 50px;
+           margin: 0;
+        }
+
+        .blogStoryDate {
+            color: #9a9a9a;
+        }
+
+        .blogFooter {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .readMoreLink {
+            font-weight: bold;
+            color: #8E793E;
+            text-decoration: none;
+        }
+
+        .readMoreLink:hover {
+            color: #8E793E;
+            text-decoration: underline;
+        }
+
+        .pageNumbers {
+            color: #231F20;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navContainer">
+        <div class="logoContainer">
+            <a href="index.html" class="homeLink">
+                <img src="images/vecteezy_simple-company-logo-free-vector_.jpg" alt="company logo" class="logoImg">
+            </a>
+            <div class="companyName">
+                <a href="index.html" class="homeLink">
+                    <h1>Pittsburgh Tech Jobs</h1>
+                </a>
+            </div>
+        </div>
+        <div class="navTabContainer">
+            <a href="#" class="navLink">
+                <div class="navTab">Jobs</div>
+            </a>
+            <a href="#" class="navLink">
+                <div class="navTab">Membership</div>
+            </a>
+            <a href="#" class="navLink">
+                <div class="navTab">Newsletter</div>
+            </a>
+            <a href="blog.html" class="navLink">
+                <div class="navTab">Blog</div>
+            </a>
+            <div class="dropdown">
+                <!-- <button class="dropBtn">Menu</button> -->
+                <div class="hamburgerMenu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="dropdownContent">
+                    <a href="#">
+                        <div class="navTab">Jobs</div>
+                    </a>
+                    <a href="#">
+                        <div class="navTab">Membership</div>
+                    </a>
+                    <a href="#">
+                        <div class="navTab">Newsletter</div>
+                    </a>
+                    <a href="blog.html">
+                        <div class="navTab">Blog</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="registerContainer">
+            <button class="registerBtn">Sign Up</button>
+        </div>
+    </div>
+    <div class="blogContainer">
+        <div class="blogTitleContainer">
+            <h2>Pittsburgh Tech Jobs Blog</h2>
+        </div>
+        <div class="blogStory">
+            <div class="blogStoryTitle">
+                <h2 class="blogTitle">Lorem ipsum dolor sit amet</h2>
+                <h6 class="blogStoryDate">March 6, 2024</h6>
+                <p class="blogArticle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque urna justo, a viverra
+                    diam consectetur
+                    non. Sed sodales ipsum non sodales scelerisque. Duis fermentum felis in tellus lobortis, eu ultrices
+                    leo dignissim.
+                    Mauris a lectus lacus. Sed efficitur semper accumsan. Fusce non ex eget nibh faucibus scelerisque
+                    non ac ipsum. Vivamus
+                    tempor leo vel lobortis sollicitudin. Praesent ultrices mattis dui sit amet laoreet. Etiam in
+                    maximus lorem. Quisque
+                    quam sem, pharetra at est ac, semper varius nibh.
+                    <br><br>
+                    Integer pharetra lobortis blandit. Aliquam volutpat a dui in pellentesque. Quisque non metus
+                    viverra, scelerisque enim
+                    ac, tempus elit. Fusce fringilla venenatis tortor, ut commodo libero ultrices id. Nullam in leo
+                    egestas, accumsan tellus
+                    at, mollis enim. Vestibulum ut laoreet nibh, vitae bibendum mauris. Aliquam in dapibus ante. Nunc
+                    eget dui porta,
+                    bibendum dolor ut, gravida neque. Nullam faucibus et arcu vitae facilisis. Vestibulum ante ipsum
+                    primis in faucibus orci
+                    luctus et ultrices posuere cubilia curae; Nunc non pharetra purus. Quisque accumsan nisl lectus, nec
+                    cursus erat
+                    suscipit et. Etiam at felis orci. Etiam tincidunt nisl vitae mauris convallis gravida.
+                </p>
+                <p class="moreLink">
+                    <a href="" class="readMoreLink">Read More...</a>
+                </p>
+            </div>
+        </div>
+        <div class="blogStory">
+            <div class="blogStoryTitle">
+                <h2 class="blogTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <h6 class="blogStoryDate">March 1, 2024</h6>
+                <p class="blogArticle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque urna justo, a viverra
+                    diam consectetur
+                    non. Sed sodales ipsum non sodales scelerisque. Duis fermentum felis in tellus lobortis, eu ultrices
+                    leo dignissim.
+                    Mauris a lectus lacus. Sed efficitur semper accumsan. Fusce non ex eget nibh faucibus scelerisque
+                    non ac ipsum. Vivamus
+                    tempor leo vel lobortis sollicitudin. Praesent ultrices mattis dui sit amet laoreet. Etiam in
+                    maximus lorem. Quisque
+                    quam sem, pharetra at est ac, semper varius nibh.
+                    <br><br>
+                    Integer pharetra lobortis blandit. Aliquam volutpat a dui in pellentesque. Quisque non metus
+                    viverra, scelerisque enim
+                    ac, tempus elit. Fusce fringilla venenatis tortor, ut commodo libero ultrices id. Nullam in leo
+                    egestas, accumsan tellus
+                    at, mollis enim. Vestibulum ut laoreet nibh, vitae bibendum mauris. Aliquam in dapibus ante. Nunc
+                    eget dui porta,
+                    bibendum dolor ut, gravida neque. Nullam faucibus et arcu vitae facilisis. Vestibulum ante ipsum
+                    primis in faucibus orci
+                    luctus et ultrices posuere cubilia curae; Nunc non pharetra purus. Quisque accumsan nisl lectus, nec
+                    cursus erat
+                    suscipit et. Etiam at felis orci. Etiam tincidunt nisl vitae mauris convallis gravida.
+                </p>
+                <p class="moreLink">
+                    <a href="" class="readMoreLink">Read More...</a>
+                </p>
+            </div>
+        </div>
+        <div class="blogStory">
+            <div class="blogStoryTitle">
+                <h2 class="blogTitle">Lorem ipsum</h2>
+                <h6 class="blogStoryDate">February 23, 2024</h6>
+                <p class="blogArticle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque urna justo, a viverra
+                    diam consectetur
+                    non. Sed sodales ipsum non sodales scelerisque. Duis fermentum felis in tellus lobortis, eu ultrices
+                    leo dignissim.
+                    Mauris a lectus lacus. Sed efficitur semper accumsan. Fusce non ex eget nibh faucibus scelerisque
+                    non ac ipsum. Vivamus
+                    tempor leo vel lobortis sollicitudin. Praesent ultrices mattis dui sit amet laoreet. Etiam in
+                    maximus lorem. Quisque
+                    quam sem, pharetra at est ac, semper varius nibh.
+                    <br><br>
+                    Integer pharetra lobortis blandit. Aliquam volutpat a dui in pellentesque. Quisque non metus
+                    viverra, scelerisque enim
+                    ac, tempus elit. Fusce fringilla venenatis tortor, ut commodo libero ultrices id. Nullam in leo
+                    egestas, accumsan tellus
+                    at, mollis enim. Vestibulum ut laoreet nibh, vitae bibendum mauris. Aliquam in dapibus ante. Nunc
+                    eget dui porta,
+                    bibendum dolor ut, gravida neque. Nullam faucibus et arcu vitae facilisis. Vestibulum ante ipsum
+                    primis in faucibus orci
+                    luctus et ultrices posuere cubilia curae; Nunc non pharetra purus. Quisque accumsan nisl lectus, nec
+                    cursus erat
+                    suscipit et. Etiam at felis orci. Etiam tincidunt nisl vitae mauris convallis gravida.
+                </p>
+                <p class="moreLink">
+                    <a href="" class="readMoreLink">Read More...</a>
+                </p>
+            </div>
+        </div>
+        <div class="blogFooter">
+            <a href="#" class="pageNumbers">1</a>&nbsp;&nbsp;
+            <a href="#" class="pageNumbers">2</a>&nbsp;&nbsp;
+            <span>...</span>
+            <a href="#" class="pageNumbers">54</a>&nbsp;&nbsp;
+            <a href="#" class="pageNumbers"><button class="blogNextBtn">Next</button></a>&nbsp;&nbsp;
+        </div>
+    </div>
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
