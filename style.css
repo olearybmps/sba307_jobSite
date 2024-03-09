@@ -622,6 +622,10 @@ td {
     text-align: left;
 }
 
+.clickableRow:hover {
+    cursor: pointer;
+}
+
 /* animation */
 /* animate newsletter image */
 @keyframes growAndShrink {

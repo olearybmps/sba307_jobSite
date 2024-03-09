@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         /* Example of internal styling */
-        
+
         .blogTitleContainer h2{
             padding: 0px;
             margin-bottom: 0px;
@@ -58,6 +58,37 @@
         .pageNumbers {
             color: #231F20;
         }
+
+        .blogTitleContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .blogSearchContainer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .blogSearchContainer input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 60%; 
+        }
+
+        .blogSearchContainer button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #231F20;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .blogSearchContainer button:hover {
+            background-color: #3a3a3a;
+        }
     </style>
 </head>
 
@@ -87,7 +118,6 @@
                 <div class="navTab">Blog</div>
             </a>
             <div class="dropdown">
-                <!-- <button class="dropBtn">Menu</button> -->
                 <div class="hamburgerMenu">
                     <div class="line"></div>
                     <div class="line"></div>
@@ -116,6 +146,12 @@
     <div class="blogContainer">
         <div class="blogTitleContainer">
             <h2>Pittsburgh Tech Jobs Blog</h2>
+            <form action="#" class="blogSearch">
+                <div class="blogSearchContainer">
+                    <input type="text" placeholder="Search...">
+                    <button  type="submit">Search Blog</button>
+                </div>
+            </form>
         </div>
         <div class="blogStory">
             <div class="blogStoryTitle">
