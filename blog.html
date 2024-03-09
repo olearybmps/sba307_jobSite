@@ -11,6 +11,34 @@
     <link rel="stylesheet" href="style.css">
     <style>
         /* Example of internal styling */
+        @media (max-width: 1920px) {
+                .blogTitleContainer {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .blogTitleContainer {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 769px) {
+            .blogTitleContainer {
+                display: block;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .blogTitleContainer {
+                display: block;
+            }
+        }
+
 
         .blogTitleContainer h2{
             padding: 0px;
@@ -21,9 +49,7 @@
             color: #8E793E;
         }
 
-        .blogTitleContainer {
-            text-align: center;
-        }
+        
 
         .blogStory {
             padding: 50px;
@@ -59,10 +85,7 @@
             color: #231F20;
         }
 
-        .blogTitleContainer {
-            display: flex;
-            justify-content: space-between;
-        }
+        
 
         .blogSearchContainer {
             padding: 20px;
