@@ -500,7 +500,10 @@ body {
     margin-bottom: 10px;
 }
 
-
+.homeLink {
+    text-decoration: none;
+    color: black;
+}
 
 /* All Buttons */
 
@@ -646,6 +649,66 @@ td {
     animation: dropIn 5000ms infinite;
     animation-delay: 500ms;
     animation-fill-mode: backwards;
+}
+
+/* Newsletter Form CSS  */
+
+.newsltrSignpFormContainer {
+    width: 65%;
+    margin: auto;
+}
+
+.newsltrTitle {
+    text-align: center;
+}
+
+.formContainer {
+    border: 1px solid black;
+    
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* style the text inputs for email and text boxes */
+/* all fields are set to 100% for responsiveness */
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* bold the labels above the input and the Habits label of the fieldset  */
+label,
+fieldset {
+    font-weight: bold;
+}
+
+/* Gender label is an h4 elements so removed the padding and margin
+to place it closer to the radio buttons like the other labels */
+.formContainer h4 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* The radio and checkbox labels bolded with the css above for labels
+so created a special class to unbold those labels */
+.lblCkBoxRadio {
+    font-weight: normal;
+}
+
+/* large buttons with action verbs (i.e. not just submit) */
+.formButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #231F20;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
 }
 
 
