@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navContainer">
+        <div class="logoContainer">
+            <a href="index.html" class="homeLink">
+                <img src="images/vecteezy_simple-company-logo-free-vector_.jpg" alt="company logo" class="logoImg">
+            </a>
+            <div class="companyName">
+                <a href="index.html" class="homeLink">
+                    <h1>Pittsburgh Tech Jobs</h1>
+                </a>
+            </div>
+        </div>
+        <div class="navTabContainer">
+            <a href="#" class="navLink">
+                <div class="navTab">Jobs</div>
+            </a>
+            <a href="#" class="navLink">
+                <div class="navTab">Membership</div>
+            </a>
+            <a href="#" class="navLink">
+                <div class="navTab">Newsletter</div>
+            </a>
+            <a href="blog.html" class="navLink">
+                <div class="navTab">Blog</div>
+            </a>
+            <div class="dropdown">
+                <div class="hamburgerMenu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="dropdownContent">
+                    <a href="#">
+                        <div class="navTab">Jobs</div>
+                    </a>
+                    <a href="#">
+                        <div class="navTab">Membership</div>
+                    </a>
+                    <a href="#">
+                        <div class="navTab">Newsletter</div>
+                    </a>
+                    <a href="blog.html">
+                        <div class="navTab">Blog</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="registerContainer">
+            <button class="registerBtn">Sign Up</button>
+        </div>
+    </div>
+    <div class="newsltrSignpFormContainer">
+        <div class="newsltrTitle">
+            <h1>Tech Job Hiring Form</h1>
+            <p>Nam iaculis nunc lacus, sit amet euismod lectus auctor in. Ut ligula lacus, imperdiet ac massa in, laoreet volutpat
+            purus. Maecenas ac pharetra ligula. Mauris quis dictum purus, eu laoreet nibh. Nulla nulla purus, tempor non elementum
+            interdum, dictum nec nulla. Quisque bibendum diam a diam pellentesque, vel rutrum risus molestie. Curabitur non nisi sed
+            neque accumsan tempor. Suspendisse feugiat metus non mauris blandit efficitur.</p>
+        </div>
+        <div class="formContainer">
+            <form action="#">
+                <label for='jobTitle'>Job Title</label><br>
+                <input type="text" name='jobTitle' placeholder='Enter job title...'><br><br>
+                <label for='companyName'>Company Name</label><br>
+                <input type="text" name='companyName' placeholder='Enter company name...'><br><br>
+                <label for="jobLocation">Location</label><br>
+                <input type="text" placeholder='Enter location...'><br>
+                <h4>Employment</h4>
+                <input for='jobType' name='jobType' type="radio">
+                <label class='lblCkBoxRadio' for="jobType">Full-time</label><br>
+                <input for='jobType' name='jobType' type="radio">
+                <label class='lblCkBoxRadio' for="jobType">Part-time</label><br>
+                <input for='jobType' name='jobType' type="radio">
+                <label class='lblCkBoxRadio' for="jobType">Contract</label><br>
+                <input for='jobType' name='jobType' type="radio">
+                <label class='lblCkBoxRadio' for="jobType">Temporary</label><br>
+                <input for='jobType' name='jobType' type="radio">
+                <label class='lblCkBoxRadio' for="jobType">Internship</label><br><br>
+                <label for="jobDescription">Job Description:</label><br>
+                <textarea name="jobDescription" id="jobDescriptionTxtArea" cols="50" rows="10" placeholder='Provide a brief overview of the job responsibilities and qualifications required'></textarea>
+                <label for="jobResponsibility">Job Responsibilities:</label><br>
+                <textarea name="jobResponsibility" id="jobResponsibilityTxtArea" cols="50" rows="10"
+                    placeholder='List primary responsibilities'></textarea>
+                <label for="jobQual">Job Qualifications:</label><br>
+                <textarea name="jobQual" id="jobQualTxtArea" cols="50" rows="10"
+                    placeholder='List required qualifications'></textarea>
+                <label for="jobBenefits">Job Benefits:</label><br>
+                <textarea name="jobBenefits" id="jobBenefitsTxtArea" cols="50" rows="10" placeholder='List any benefits offered, such as healthcare, retirement plans, etc.'></textarea>
+                <label for='jobSalaryRange'>Salary Range:</label><br>
+                <input type="text" name='jobSalaryRange' placeholder='Enter salary range...'><br><br>
+                <button class='formButton' type='submit'>Post Job Information</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
